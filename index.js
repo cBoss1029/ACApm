@@ -41,7 +41,6 @@ if(process.argv[2] === "init"){
                         fs.writeFile("package.json", JSON.stringify(userInfo, null, '\t'), (err) => {
                             if (err) throw (err);
                             console.log("The file was successfully saved!");
-                            
                         });
                         rl.close();
 
